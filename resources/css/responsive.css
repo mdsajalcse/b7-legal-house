@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+
+.hero-section h1{
+    font-size:42px;
+    line-height: 46px;
+}
+
+
+    footer, .row, .col{
+        display: grid !important;
+        grid-template-columns: auto;
+        padding: 10px ;
+             
+    }
+    .row, .col ,input-group{
+        width: 100%;      
+    }
+
+    /* <!-- contact section --> */
+    .card-custom{
+        display: grid;
+        grid-template-columns: auto;
+        width:100%;
+        margin-left:80px;   
+     }
+    .custom-from{
+        margin-left:80px;
+        
+     }
+     .testimonial-area  .row{
+        margin-top: -100px;
+     }
+     .faq .row{
+        margin-top: -110px;
+     }
+
+  }
